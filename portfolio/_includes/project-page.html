@@ -1,0 +1,257 @@
+
+<head>
+
+  <!--
+  /**
+   * @license
+   * MyFonts Webfont Build ID 3293297, 2016-10-08T14:32:03-0400
+   * 
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are 
+   * explicitly restricted from using the Licensed Webfonts(s).
+   * 
+   * You may obtain a valid license at the URLs below.
+   * 
+   * Webfont: DINNextLTPro-Light by Linotype
+   * URL: http://www.myfonts.com/fonts/linotype/din-next/pro-light/
+   * Copyright: Copyright &#x00A9; 2008 - 2009 Linotype GmbH, www.linotype.com. All rights
+   * reserved. This font software may not be reproduced, modified, disclosed or
+   * transferred without the express written approval of Linotype GmbH.
+   * 
+   * Webfont: DINNextLTPro-Regular by Linotype
+   * URL: http://www.myfonts.com/fonts/linotype/din-next/pro-regular/
+   * Copyright: Copyright &#x00A9; 2010 Linotype GmbH, www.linotype.com. All rights
+   * reserved. This font software may not be reproduced, modified, disclosed or
+   * transferred without the express written approval of Linotype GmbH.
+   * 
+   * 
+   * License: http://www.myfonts.com/viewlicense?type=web&buildid=3293297
+   * Licensed pageviews: 250,000
+   * 
+   * © 2016 MyFonts Inc
+  */
+  -->
+
+  <meta charset="utf-8">
+  <title>{{page.title}} — Ian Ardouin-Fumat</title>
+  <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/MyFontsWebfontsKit.css">
+  <link rel="stylesheet" href="{{ site.github.url }}/css/main.css">
+
+  <link rel="icon" type="image/png" href="{{ site.github.url }}/images/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="{{ site.github.url }}/images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ site.github.url }}/images/favicon-96x96.png" sizes="96x96">
+  
+  <script src="{{ site.github.url }}/js/lazyload.min.js"></script>
+  <script src="{{ site.github.url }}/js/smoothscroll.js"></script>
+</head>
+
+<body>
+  <div class="body" id="overview">
+    <h1 class="small">
+      <span>
+        <a href="{{ site.github.url }}/">
+          Ian Ardouin-Fumat
+        </a>
+      </span>
+      <div class="links">
+        <a href="mailto:ian.ardouin@gmail.com">
+          <img class="button" src="{{ site.github.url }}/images/misc/icon-email.svg">
+        </a>
+        <a href="{{ site.github.url }}/documents/ian-ardouin-resume.pdf">
+          <img class="button" src="{{ site.github.url }}/images/misc/icon-cv.svg">
+        </a>
+      </div>
+    </h1>
+    <div class="overview">
+      <div class="overview_title">
+        <a href="{{ site.github.url }}/projects/{{page.category}}/">
+          <h2 class="overview_title_name">
+            {{ page.title }}
+            <div>
+              <a href="{{ site.github.url }}/">
+                <img class="button" src="{{ site.github.url }}/images/misc/icon-home.svg">
+              </a>
+              <a href="{{ site.github.url }}/projects/{{ page.previous-project }}/">
+                <img class="button" src="{{ site.github.url }}/images/misc/icon-previous.svg">
+              </a>
+              <a href="{{ site.github.url }}/projects/{{ page.next-project }}/">
+                <img class="button" src="{{ site.github.url }}/images/misc/icon-next.svg">
+              </a>
+            </div>
+          </h2>
+        </a>
+        <div class="overview_title_links">
+        </div>
+      </div>
+      <div class="overview_about {% unless page.hasGallery %}padding{% endunless %}">
+        <h3 class="overview_about_section-selector">
+          {% if page.type == "essay"%}
+            Essay
+          {% elsif page.type == "talks"%}
+            <div style="margin-top: -36px"></div>
+          {% else %}
+            <a href="#process"><span class="active">Overview</span> / <span class="inactive">Process</span></a>
+          {% endif %}
+        </h3>
+        <h4 class="overview_about_description">
+          {{ page.subtitle | markdownify }}
+          {% if page.description %}
+            {{ page.description | markdownify }}
+          {% endif %}
+        </h4>
+        <div class="overview_about_meta">
+          {% if page.role %}
+            <p class="overview_about_meta_role">
+              {{ page.role }} with <a target="_blank" href="{{ page.with-link }}">{{ page.with }}</a>, for <a target="_blank" href="{{ page.for-link }}">{{ page.for }}</a>.
+            </p>
+          {% endif %}
+          {% if page.press %} 
+            <p>
+              <span>Press:</span>
+                {% for outlet in page.press %}
+                  {{ outlet }}
+                {% endfor %}
+              <br/>
+            </p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% if page.hasGallery %}
+      {% for post in site.categories[{{page.category}}] %}
+        {% if post.type == "overview" %}
+          <div class="overview_gallery">
+            {{ post.content }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+  {% if page.hasPosts %}
+    <div class="body process">
+      <div class="process" id="process">
+        {% if page.type != "essay" and page.type != "talks" %}
+          <div class="process_title">
+            <h2 class="process_title_name">
+              <a href="{{ site.github.url }}/projects/{{page.category}}/">{{ page.title }}</a>
+            </h2>
+            <h3 class="process_title_section-selector">
+              <a href="#overview"><span class="inactive">Overview</span> / <span class="active">Process</span></a>
+            </h3>
+          </div>
+        {% endif %}
+        <div class="process_posts">
+          {% for post in site.categories[{{page.category}}] %}
+            {% if post.type == "process" %}
+              <div class="process_posts_post" id="{{ post.anchor }}">
+                {% if page.type != "essay" %}
+                  <a href="#{{ post.anchor }}">
+                    <div class="process_posts_post_title">
+                      <div class="process_posts_post_title_date">
+                         {{ post.date | date: "%m/%d/%Y" }}
+                      </div>
+                      <h3 class="process_posts_post_title_name">
+                        {{ post.title }}
+                      </h3>
+                    </div>
+                  </a>
+                {% endif %}
+                <div class="process_posts_post_content">
+                  {{ post.content }}
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer_title">
+          <a href="/">
+            <h1 class="footer_title_logo">
+              Ian Ardouin-Fumat
+            </h1>
+          </a>
+          <div class="footer_title_links">
+            <a href="mailto:ian.ardouin@gmail.com">
+              <img class="button" src="{{ site.github.url }}/images/misc/icon-email-black.svg">
+            </a>
+            <a href="{{ site.github.url }}/documents/ian-ardouin-resume.pdf">
+              <img class="button" src="{{ site.github.url }}/images/misc/icon-cv-black.svg">
+            </a>
+          </div>
+        </div>
+        <div class="footer_index">
+          <div>
+            <a href="{{ site.github.url }}/">
+              <img class="button" src="{{ site.github.url }}/images/misc/icon-home-black.svg">
+            </a>
+            <a href="{{ site.github.url }}/projects/{{ page.previous-project }}/">
+              <img class="button" src="{{ site.github.url }}/images/misc/icon-previous-black.svg">
+            </a>
+            <a href="{{ site.github.url }}/projects/{{ page.next-project }}/">
+              <img class="button" src="{{ site.github.url }}/images/misc/icon-next-black.svg">
+            </a>
+          </div>
+          {% assign years = "2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012" | split: "," %}          
+          {% for y in years %}
+            {% assign emptyYear = 0 %}
+            {% for project in site.projects reversed %}
+              {% assign year = y | plus: 0 %}
+              {% assign projectYear = project.year | split: "-" | last | plus: 0 %}
+              {% if projectYear == year %}
+                {% if emptyYear == 0 %}
+                  <div class="footer_index_project">
+                    {{ year }}:
+                {% endif %}
+                {% assign emptyYear = emptyYear | plus: 1 %}
+                {% if emptyYear > 1 %}
+                  •
+                {% endif %}
+                <a href="{{ site.github.url }}/projects/{{ project.category }}">{{ project.title }}</a>
+              {% endif %}
+            {% endfor %}
+            {% if emptyYear > 0 %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  <script>
+    function resizeVideoIFrame () {
+      document.querySelectorAll('iframe.youtube').forEach(function(video){
+        var siblingCount = video.parentNode.childElementCount
+        var width = video.parentNode.offsetWidth - (window.innerWidth > 800 && siblingCount > 1 ? window.innerWidth * 0.0125 * 16 : 0)
+        var height = width / (16 / 9)
+        video.style.width = width
+        video.style.height = height
+      })
+    }
+    resizeVideoIFrame()
+
+    function initSectionSelector () {
+      var selectors = Array.prototype.slice.call(document.querySelectorAll('.overview_about_section-selector, .process_title_section-selector '))
+      selectors.forEach(function (s, i) {
+        var link = s.children[0]
+        link.addEventListener('click', function(e) {
+          var postIndex = link.getAttribute('href')
+          e.preventDefault()
+          document.querySelector(postIndex).scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'end'
+          })
+          return false
+        })
+      })
+    }
+
+    window.addEventListener('resize', resizeVideoIFrame);
+    document.addEventListener("DOMContentLoaded", initSectionSelector)
+    var myLazyLoad = new LazyLoad({
+      class_loading: 'loading',
+      class_loaded: 'loaded'
+    });
+  </script>
+</body>

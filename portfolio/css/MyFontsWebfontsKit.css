@@ -1,0 +1,35 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3319925, 2016-12-12T10:19:51-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: DINNextLTPro-Light by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/din-next/pro-light/
+ * Copyright: Copyright &#x00A9; 2008 - 2009 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH.
+ * 
+ * Webfont: DINNextLTPro-Regular by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/din-next/pro-regular/
+ * Copyright: Copyright &#x00A9; 2010 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3319925
+ * Licensed pageviews: 250,000
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/32a875");
+
+  
+@font-face {font-family: 'DINNextLTPro-Light';src: url('webfonts/32A875_0_0.eot');src: url('webfonts/32A875_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/32A875_0_0.woff2') format('woff2'),url('webfonts/32A875_0_0.woff') format('woff'),url('webfonts/32A875_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'DINNextLTPro-Regular';src: url('webfonts/32A875_1_0.eot');src: url('webfonts/32A875_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/32A875_1_0.woff2') format('woff2'),url('webfonts/32A875_1_0.woff') format('woff'),url('webfonts/32A875_1_0.ttf') format('truetype');}
+ 

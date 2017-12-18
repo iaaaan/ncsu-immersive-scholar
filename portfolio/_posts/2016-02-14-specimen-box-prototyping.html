@@ -1,0 +1,55 @@
+---
+title:  "Getting our hands dirty with malware data"
+date:   2014-2-14 00:00:00 -0500
+categories: specimen-box
+anchor: prototyping
+type: process
+---
+
+<p>
+  The initial phase of the project was very prolific, as we gathered a team of coders, statisticians and music composers to look at the data provided to us by Microsoft. In the matter of a couple weeks each team member came up with a number of quick prototypes taking a stab at various aspects of the data: periodicity, language, network dynamics, etc... A first breakthrough came from OCR co-founder <a href="https://twitter.com/blprnt">Jer Thorp</a>'s contribution: a botnet "portrait" based on its activity over time across all infected IPs. 
+</p>
+
+<div class="media l off">
+  <p class="label">A botnet portrait, graphing time (radius) and infected IPs (circumference), shows communication patterns for an entire day</p>
+  <div class="image">
+    <img data-original="{{ site.github.url }}/images/specimen-box/prototyping/portraits/botnetIPs15.00_10.00_39.00.png"/>
+  </div>
+</div>
+
+<p>
+  These portraits revealed intricate details about the structures and behaviors of each network. The variations in their size and activity translated into equally diverse patterns. The visual form of several botnets—including <a href="https://en.wikipedia.org/wiki/Waledac_botnet" target="_blank">Waledac</a>, a favorite of mine— reminded us of Tron-like graphics, as they revealed complex hierarchichal structures.
+</p>
+
+<div class="media xl off">
+  <div class="image">
+    <img data-original="{{ site.github.url }}/images/specimen-box/prototyping/portraits/botnetIPs_waledac.png"/>
+  </div>
+  <div class="image">
+    <img data-original="{{ site.github.url }}/images/specimen-box/prototyping/portraits/botnetIPs_b54-base.png"/>
+  </div>
+  <div class="image">
+    <img data-original="{{ site.github.url }}/images/specimen-box/prototyping/portraits/botnetIPs_b54-config.png"/>
+  </div>
+</div>
+
+<p>
+  Co-worker <a href="http://www.noayounse.com/">Noa Younse</a> took this initial visualization further by developing a number of algorithms sorting IP activity with other metrics, such as geo-location and behavior similarity. His experiments allowed us to generate new portraits that reflected the deeper mechanics of each botnet and their hierarchies. 
+</p>
+
+<div class="media" style="display: block;">
+  <div class="image">
+    <img data-original="{{ site.github.url }}/images/specimen-box/prototyping/sorting/b54-base.png"/>
+  </div>
+  <div class="image" style="margin-top:15px">
+    <img data-original="{{ site.github.url }}/images/specimen-box/prototyping/sorting/b58-xplt.png"/>
+  </div>
+  <div class="image" style="margin-top:15px">
+    <img data-original="{{ site.github.url }}/images/specimen-box/prototyping/sorting/zbot.png"/>
+  </div>
+</div>
+
+<p>
+  This research helped us defining an overall concept for our work with Microsoft. We now had to define how to interact with it.
+</p>
+
