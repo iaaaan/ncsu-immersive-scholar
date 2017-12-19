@@ -1,8 +1,7 @@
 ---
-title:  "Talks"
-subtitle: "A sample of the talks I've given. Over the past years I've been invited to talk about information design, open data practice, and in one instance about the lack of diversity in tech."
+title:  "Visualized"
+description: "A sample of the talks I've given. Over the past years I've been invited to talk about information design, open data practice, and in one instance about the lack of diversity in tech."
 category: talks
-date:   "2017-04-13 14:54:00 -0500"
 year: 2013-2017
 hasPosts: true
 hasGallery: false
@@ -10,6 +9,6 @@ type: "talks"
 
 previous-project: c2-brain
 next-project: elephant-atlas
+index: 3
+images: ['https://player.vimeo.com/video/160679945']
 ---
-
-{% include project-page.html %}

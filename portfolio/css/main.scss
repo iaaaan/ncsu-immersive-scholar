@@ -5,10 +5,11 @@ $line-width: 1.25vw;
 $line-height: 18px;
 $font-body: 16px;
 $font-headline: 26px;
-$black: #000000;
-$dark-gray: #666666;
-$light-gray: #AAAAAA;
-$white: #ffffff;
+
+$black: #f5f5f5;
+$dark-gray: #AAAAAA;
+$light-gray: #666666;
+$white: black;
 
 @mixin tablet-portrait-down {
   @media (max-width: 800px) { @content; }
@@ -155,7 +156,7 @@ img.button {
   &.process {
     padding-top: $line-height * 2;
     background-color: $white;
-    color: black;
+    color: $black;
     z-index: 0;
   }
 
@@ -167,32 +168,47 @@ img.button {
 
 .about {
   display: flex;
-  border-bottom: 1px solid darken($dark-gray,30%);
+  border-bottom: 1px solid lighten($dark-gray,10%);
   padding-bottom: $line-height * 4;
 
   @include tablet-portrait-down {
     display: block;
   }
 
-  &_title {
-    flex-basis: $line-width * 12;
-    margin-right: $line-width * 4;
+  &_bios {
+    display: flex;
+    flex-basis: $line-width * 80;
 
-    @include laptop-up {
-      max-width: 216px;
-      margin-right: 72px;
-    }
+    &_bio {
+      flex-basis: $line-width * 38;
 
-    @include tablet-portrait-down {
-      margin-bottom: $line-height * 2;
-    }
-  }
+      &_profile {
+        display: block;
+        width: $line-width * 8;
+        height: $line-width * 8;
+        border-radius: $line-width * 4;
+        background-image: url('../images/misc/CMRCHH-u_400x400.jpg');
+        background-size: cover;
+        margin-top: $line-width * 2;
+      }
 
-  &_bio {
-    flex-basis: $line-width * 20;
+      &:first-child {
+        margin-right: $line-width * 4;
 
-    @include laptop-up {
-      flex-basis: 360px;
+        .about_bios_bio_profile {
+          background-image: url('../images/misc/CMRCHH-u_400x400.jpg');
+        }
+      }
+
+      & a {
+        color: $dark-gray;
+        transition: color 0.15s;
+        text-decoration: underline;
+
+        &:hover {
+          color: $white;
+        }
+      }
     }
 
     &_cta {
@@ -211,7 +227,7 @@ img.button {
   &_project {
     display: flex;
     padding: $line-height * 4 0;
-    border-bottom: 1px solid darken($dark-gray,30%);
+    border-bottom: 1px solid lighten($dark-gray,10%);
     transition: opacity 0.3s;
 
     @include tablet-portrait-down {
@@ -269,6 +285,14 @@ img.button {
         width: 100%;
         transition: filter 0.3s;
         opacity: 1;
+        margin-bottom: $line-width * 2;
+      }
+
+      & iframe {
+        width: $line-width * 36 !important;
+        max-height: $line-width * 20.25;
+        background-color: $white;
+        margin-bottom: $line-width * 2;
       }
     }
 
@@ -489,7 +513,7 @@ img.button {
     &_post {
       margin-top: $line-height * 5;
       padding-bottom: $line-height * 5;
-      border-bottom: 1px solid lighten($light-gray, 20%);
+      border-bottom: 1px solid lighten($light-gray, 10%);
 
       &_title {
         display: flex;
@@ -621,7 +645,7 @@ img.button {
           & .youtube {
             flex: 1;
             margin-right: 1px;
-            background-color: lighten($light-gray, 30%);
+            background-color: lighten($light-gray, 10%);
             height: auto;
 
             &:last-child {
@@ -636,7 +660,7 @@ img.button {
           & .image {
             flex: 1;
             margin-right: 1px;
-            background-color: lighten($light-gray, 30%);
+            background-color: lighten($light-gray, 10%);
             height: auto;
 
             &:last-child {
@@ -790,8 +814,24 @@ img.button {
   margin-bottom: $line-width;
 }
 
+.header {
+  border-bottom: 1px solid lighten($dark-gray, 10%);
+  margin-bottom: $line-width * 2;
+  padding-bottom: $line-width * 4;
 
+  & h1 {
+    margin: auto;
+    width: auto;
+    text-align: center;
 
+    span {
+      color: $dark-gray;
+    }
+  }
 
-
+  & p {
+    text-align: center;
+    color: $dark-gray;
+  }
+}
 

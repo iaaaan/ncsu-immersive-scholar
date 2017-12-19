@@ -1,13 +1,13 @@
 ---
-title:  "Specimen Box"
+title:  "We Were Strangers Once Too"
 description: "What do botnets tell us when given a voice? Specimen Box is a research tool that lets us explore the personality of those malware networks.<br/><br/>Microsoft DCU tasked the Office for Creative Research with exploring the organic structures and behaviors uncovered by observing millions of zombie computers. The resulting application is an interactive, audiovisual installation living in Microsoft’s Cybercrime Center."
-category: specimen-box
+category: times-square
 year: 2014
 for: "Microsoft Cybercrime Unit"
 for-link: "https://news.microsoft.com/presskits/dcu/#sm.00000b7w8fnigif79rsp9bqb4m5p1"
 with: "The OCR"
 with-link: "https://ocr.nyc/"
 press: <a target='_blank' href='https://www.wired.com/2014/12/sci-fi-worthy-interface-tracking-criminal-botnets/'>Wired</a>
-index: 5
-images: ['specimenBox_1-p.jpg', 'https://player.vimeo.com/video/100818042', 'https://player.vimeo.com/video/100818043']
+index: 9
+images: ['weWereStrangers_03.jpg', 'weWereStrangers_06.jpg', 'weWereStrangers_05.jpg']
 ---

@@ -35,11 +35,28 @@ layout: default
    * 
    * © 2016 MyFonts Inc
   */
+
+Einstein Scientific American - science publication data
+Pompidou Data Sprint - collection data / life of artworks / web data visualization
+C2 Montreal - public live data installation
+Into the Okavango - open user-friendly API / web data visualization / open science
+Elephant Census - open user-friendly API / web data visualization
+Visualized talk - open API / crowdsourcing / creative processing
+Floodwatch - open-ish API / crowdsourcing / web data visualization
+DCU - badass data visualization
+Shakespeare Machine - public data installation
+Maproom - community driven artwork / public installation
+We were strangers once too - public data installation
+Cloudy with a chance of pain - crowdsourcing / web data visualization / open science
+Predict - web data visualization / science storytelling
+Convene - social network visualization
+
+
   -->
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ian Ardouin-Fumat</title>
+  <title>GHxIAF</title>
   <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/MyFontsWebfontsKit.css">
   <link rel="stylesheet" href="/css/main.css">
 
@@ -51,206 +68,62 @@ layout: default
 <body>
   <div id="background"></div>
   <div class="body">
+    <div class="header">
+      <h1>
+          Genevieve Hoffman <span>x</span> Ian Ardouin-Fumat
+      </h1>
+      <p>
+        For NCSU Immersive Scholar Creative Residency Call
+      </p>
+    </div>
     <div class="about">
-      <div class="about_title">
-        <a href="/">
-          <h1 class="about_title_logo">
-            Ian Ardouin-Fumat
-          </h1>
-        </a>
-        <div class="about_title_links">
-          <a href="mailto:ian.ardouin@gmail.com">
-            <img class="button" src="{{ site.github.url }}/images/misc/icon-email.svg">
-          </a>
-          <a href="{{ site.github.url }}/documents/ian-ardouin-resume.pdf">
-            <img class="button" src="{{ site.github.url }}/images/misc/icon-cv.svg">
-          </a>
+      <div class="about_bios">
+        <div class="about_bios_bio">
+          <p class="about_bios_bio_profile">
+          </p>
+          <p>
+            <a href="http://portfolio.genevievehoffman.com/">Genevieve Hoffman</a> is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie eget purus sed aliquam. Vestibulum ornare eu eros ut molestie. Praesent sodales, nisl a fermentum condimentum, ante purus pellentesque massa, eu mattis purus arcu vitae enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam molestie maximus justo. Pellentesque ullamcorper tristique arcu, quis euismod diam sagittis a. Nullam tristique magna eu sem porttitor, non accumsan risus bibendum. Praesent eleifend nunc luctus massa fringilla, ac mattis nibh vehicula. Etiam at interdum lorem, nec rutrum nisi.
+          </p>
         </div>
-      </div>
-      <div class="about_bio">
-        <p>
-          Trained as an interaction designer in France, I've practiced creative coding and critical thinking around technology since 2012. My work revolves around the intersection of data and civil rights, information security, environmental conservation, and the art world.
-        </p>
-        <p>
-          These days I work with NGOs, universities and news organizations. Do you need some data visualization work done? <a href="mailto:ian.ardouin@gmail.com" class="about_bio_cta">Drop me a line!</a>
-        </p>
+        <div class="about_bios_bio">
+          <p class="about_bios_bio_profile">
+          </p>
+          <p>
+            <a href="http://ian.earth/">Ian Ardouin-Fumat</a> was trained as an interaction designer in France. He has practiced creative coding and critical thinking around technology since 2012. Ian's work revolves around the intersection of data and civil rights, information security, environmental conservation, and the art world.
+          </p>
+        </div>
       </div>
     </div>
     <div class="projects">
-      {% for project in site.projects reversed %}
-        <a href="{{ site.github.url }}/projects/{{project.category}}/">
-          <div class="projects_project {% if forloop.index > 0 %}inactive{% endif %}" href="{{ site.github.url }}/projects/{{project.category}}/">
-            <div class="projects_project_title">
-              <h2 class="projects_project_title_name">
-                {{ project.title }}
-              </h2>
-              <h3 class="project_project_title_date">
-                {{ project.year }}
-              </h3>
-            </div>
-            <div class="projects_project_subtitle">
-              {{ project.subtitle | markdownify | strip_html }}
-            </div>
-            <div class="projects_project_image">
-              <img src="{{ site.github.url }}/images/{{project.category}}/homepage/homepage.jpg"/>
-            </div>
+      {% assign projects = site.projects | sort: 'index' %}
+      {% for project in projects %}
+        <div class="projects_project" href="{{ site.github.url }}/projects/{{project.category}}/">
+          <div class="projects_project_title">
+            <h2 class="projects_project_title_name">
+              {{ project.title }}
+            </h2>
+            <h3 class="project_project_title_date">
+              {{ project.year }}
+            </h3>
           </div>
-        </a>
+          <div class="projects_project_subtitle">
+            {{ project.description | markdownify }}
+          </div>
+          <div class="projects_project_image">
+            {% for image in project.images %}
+              {% assign slicedImage = image | slice: 0, 24 %}
+              {% if slicedImage == "https://player.vimeo.com" %}
+                <iframe src="{{ image }}" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              {% else %}
+                <img src="{{ site.github.url }}/images/{{project.category}}/{{ image }}"/>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
       {% endfor %}
     </div>
     <div class="footer">
-      <div class="footer">
-        <div class="footer_title">
-          <a href="/">
-            <h1 class="footer_title_logo">
-              Ian Ardouin-Fumat
-            </h1>
-          </a>
-          <div class="footer_title_links">
-            <a href="mailto:ian.ardouin@gmail.com">
-              <img class="button" src="{{ site.github.url }}/images/misc/icon-email.svg">
-            </a>
-            <a href="{{ site.github.url }}/documents/ian-ardouin-resume.pdf">
-              <img class="button" src="{{ site.github.url }}/images/misc/icon-cv.svg">
-            </a>
-          </div>
-        </div>
-        <div class="footer_index">
-          {% assign years = "2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012" | split: "," %}          
-          {% for y in years %}
-            {% assign emptyYear = 0 %}
-            {% for project in site.projects reversed %}
-              {% assign year = y | plus: 0 %}
-              {% assign projectYear = project.year | split: "-" | last | plus: 0 %}
-              {% if projectYear == year %}
-                {% if emptyYear == 0 %}
-                  <div class="footer_index_project">
-                    {{ year }}:
-                {% endif %}
-                {% assign emptyYear = emptyYear | plus: 1 %}
-                {% if emptyYear > 1 %}
-                  •
-                {% endif %}
-                <a href="{{ site.github.url }}/projects/{{ project.category }}">{{ project.title }}</a>
-              {% endif %}
-            {% endfor %}
-            {% if emptyYear > 0 %}
-              </div>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
+      Genevieve Hoffman x Ian Ardouin-Fumat 2017
     </div>
   </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"></script>
-
-  <script>
-
-    var scene, camera, renderer
-    var geometry, material, geometry, particles
-    scene = new THREE.Scene()
-    camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 25, 10000 )
-    camera.position.z = 800
-    geometry = new THREE.Geometry()
-    for ( i = 0; i < 12000; i ++ ) {
-      var vertex = new THREE.Vector3()
-      vertex.x = Math.random() * 2000 - 1000
-      vertex.y = Math.random() * 2000 - 1000
-      vertex.z = Math.random() * 2000 - 1000
-      geometry.vertices.push(vertex)
-    }
-    material = new THREE.PointsMaterial({ color: 0x555555 })
-    particles = new THREE.Points(geometry, material)
-    scene.add(particles)
-    renderer = new THREE.WebGLRenderer({antialias: true})
-    renderer.setSize( window.innerWidth, window.innerHeight )
-    document.querySelector('#background').appendChild( renderer.domElement )
-    renderer.render( scene, camera )
-
-    var activeProjectID = 0
-    var projectCount = {{ site.projects | size | jsonify }}
-
-    document.addEventListener("DOMContentLoaded", updateActiveProject)
-    document.addEventListener('scroll', function(e) {
-      animateBackground(e.deltaY)
-      updateActiveProject(e)
-    })
-    document.addEventListener('mousemove', updateActiveProject)
-    
-    window.addEventListener('resize', function () {
-      camera.aspect = window.innerWidth / window.innerHeight
-      camera.updateProjectionMatrix()
-      renderer.setSize( window.innerWidth, window.innerHeight )
-      renderer.render( scene, camera )
-      updateActiveProject()
-    })
-
-    // document.addEventListener('mousewheel', function(e){
-    //   animateBackground(e.deltaY)
-    //   return false
-    // })
-
-    var lastY = 0
-    document.addEventListener('touchstart', function (e){
-     var currentY = e.touches[0].clientY
-     lastY = currentY
-    })
-
-    document.addEventListener('touchmove', function (e){
-      var currentY = e.touches[0].clientY
-      var delta = currentY - lastY
-      animateBackground(-delta)
-      lastY = currentY
-    })
-
-    document.addEventListener('touchend', function (e){
-     lastY = 0
-    })
-
-    var lastScrollTop = (window.pageYOffset || document.documentElement.scrollTop)  - (document.documentElement.clientTop || 0)
-    function animateBackground () {
-      var doc = document.documentElement
-      var scrollTop = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0)
-      var delta = scrollTop - lastScrollTop
-      if (
-        (delta < 0 && scrollTop > 0) || 
-        (delta > 0 && scrollTop + window.innerHeight < document.body.clientHeight)
-      ) {
-        particles.rotation.x -= delta / 3000
-        renderer.render( scene, camera )
-      }
-      lastScrollTop = scrollTop
-    }
-
-    function updateActiveProject (event) {
-      var pageHeight = document.body.offsetHeight
-      var mouseOffset = !!event.clientY ? window.innerHeight / 2 - event.clientY : 0
-      var doc = document.documentElement
-      var scrollTop = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0)
-      var nodes = Array.prototype.slice.call(document.querySelectorAll('.projects_project'))
-      var scrollRatio = scrollTop / (pageHeight - window.innerHeight)
-      
-      var closestNode = {
-        id: -1,
-        distance: 1000000000
-      }
-      nodes.forEach(function(n, id) {
-        var distance = Math.abs(n.offsetTop - scrollTop - window.innerHeight / 2 + n.offsetHeight / 2)
-        if (distance < closestNode.distance) {
-          closestNode = {
-            id,
-            distance
-          }
-        }
-      })
-      nodes.forEach(function(n, id) {
-        if (id === closestNode.id) {
-          n.className = 'projects_project'
-        } else {
-          n.className = 'projects_project inactive'
-        }
-      })
-    }   
-  </script>
 </body>

@@ -1,12 +1,12 @@
 ---
-title:  "C2 Brain"
+title:  "Centre Pompidou Data Sprint"
 description: "I joined the The New School's [Center for Data Arts](http://www.data-arts.nyc/) to visualize the depth and breadth of conversations that took place at one of the world's most eclectic business conferences.<br/><br/>Together, we put together a physical installation and a 3-day live-coding performance to transcribe the substance of C2 Montreal."
-category: c2-brain
+category: pompidou
 year: 2017
 with: "Center for Data Arts"
 with-link: "http://www.data-arts.nyc/"
 for: "C2"
 for-link: "https://www.c2montreal.com/"
-index: 0
-images: ['https://player.vimeo.com/video/241924760', 'https://player.vimeo.com/video/234061896']
+index: -1
+images: ['https://player.vimeo.com/video/247915935', 'pompidou1.png']
 ---
