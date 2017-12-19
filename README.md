@@ -1,5 +1,3 @@
-An illustration of France's racism and ignorance of identity politics: there's currently a debate on French Twitter on whether blackface is ok.
-
 
 # ncsu-immersive-scholar
 
