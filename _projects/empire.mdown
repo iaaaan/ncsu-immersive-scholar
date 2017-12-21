@@ -3,12 +3,9 @@ title:  "Empire"
 description: "[Empire](http://www.pbs.org/pov/empire/) is an immersive documentary project that examines the still-unfolding legacy of Dutch colonialism. The project is truly cross-platform, displayed as multi-channel film installations in galleries, as a book, and as an interactive web experience. Genevieve was approached by the filmmakers, [Eline Jongsma and Kel O'Neill](http://www.jongsmaoneill.com/), to develop the interactive website. She worked with them to prototype interactions that suited each of the four organizing themes - Cradle, Periphery, Migrants and Legacy. Since the films had first been experienced as multi-channel installations in space, Genevieve tried to create a web-based experience that would provide ways of experiencing multiple films at once, while still allowing the viewer to focus in on material they found compelling.<br/><br/>Empire:Interactive was featured in the [DocLab](http://www.doclab.org/2014/empire-interactive/) new media exhibition of the 2014 International Documentary Film Festival in Amsterdam. It is currently on view at [POV](http://www.pbs.org/pov/) (PBS's documentary arm), and is one of six interactive documentaries to be featured on [POV's website](http://www.pbs.org/pov/digital/shorts/)."
 category: empire
 year: 2014
-for: "Microsoft Cybercrime Unit"
-for-link: "https://news.microsoft.com/presskits/dcu/#sm.00000b7w8fnigif79rsp9bqb4m5p1"
-with: "The OCR"
-with-link: "https://ocr.nyc/"
 press: <a target='_blank' href='https://www.wired.com/2014/12/sci-fi-worthy-interface-tracking-criminal-botnets/'>Wired</a>
 index: 10
 images: ['empire1.jpg', 'empire2.jpg', 'empire4.jpg', 'empire5.jpg']
 tags: ['interactive', 'storytelling']
+for: "[PBS](www.google.com)"
 ---

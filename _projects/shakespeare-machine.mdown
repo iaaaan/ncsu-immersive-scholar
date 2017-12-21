@@ -12,4 +12,5 @@ press: <a target='_blank' href='https://www.wired.com/2014/12/sci-fi-worthy-inte
 index: 7
 images: ['Whole-p.jpg', 'viz3.jpg', 'ADJ-and-ADJ2 11.24.06 PM-p.jpg']
 tags: ['installation', 'public space']
+for: "[Public Theater](https://www.publictheater.org/)"
 ---

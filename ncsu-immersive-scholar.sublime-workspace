@@ -1,0 +1,402 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sroll",
+				"scrollTop"
+			],
+			[
+				"scrol",
+				"scrollTop"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "save",
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"rever",
+				"Permute Lines: Reverse"
+			],
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ian/Documents/Projects/iaaaan.github.io/_projects/specimen-box.markdown",
+		"/Users/ian/Documents/Projects/iaaaan.github.io/_projects/floodwatch.markdown",
+		"/Users/ian/Documents/Projects/iaaaan.github.io/_projects/radiant-city.markdown",
+		"/Users/ian/Documents/Projects/iaaaan.github.io/_projects/elephant-atlas.markdown",
+		"/Users/ian/Documents/Projects/iaaaan.github.io/_projects/talks.mdown",
+		"/Users/ian/Documents/Projects/iaaaan.github.io/index.html",
+		"/Users/ian/Documents/Projects/iaaaan.github.io/_projects/c2-brain.mdown",
+		"/Users/ian/Documents/Projects/iaaaan.github.io/_projects/into-the-okavango.markdown",
+		"/Users/ian/Desktop/TODO.txt",
+		"/Users/ian/Documents/Projects/cloudy.sublime-project",
+		"/Users/ian/Documents/Projects/museum-data-sprint/museum-data-sprint.txt",
+		"/Users/ian/Documents/Projects/wild-bird-trust/admin/wild-bird-revolution.txt",
+		"/Users/ian/Documents/Projects/deface/deface.txt",
+		"/Users/ian/Documents/Projects/webtorrent-dht/package.json",
+		"/Users/ian/Documents/Admin/O1/2017/VISA.txt",
+		"/Users/ian/Desktop/PHRASES.txt",
+		"/Users/ian/Documents/Admin/O1/2017/letters/james-deutsch-support-letter-draft.txt",
+		"/Users/ian/Documents/Admin/O1/2017/letters/jer-thorp-support-letter-draft.txt",
+		"/Users/ian/Documents/Projects/webtorrent-dht/k-rpc-socket-webrtc.js",
+		"/Users/ian/Documents/Projects/webtorrent-dht/demo/node-server.js",
+		"/Users/ian/Documents/Projects/cloudy-ingest/package.json",
+		"/Users/ian/Documents/Projects/cloudy-ingest/index.js",
+		"/Users/ian/Dropbox/Admin/install-linux.txt",
+		"/Users/ian/Library/Thunderbird/Profiles/c0npitw5.default/chrome/userChrome.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"updateActiveProject",
+			"okava",
+			"status",
+			"delta",
+			"animateBackground",
+			"status",
+			"animateBackground",
+			"updateActiveProject",
+			"x",
+			"x ",
+			"  ",
+			"\n",
+			"  ",
+			",",
+			"  ",
+			"959653aa7b4014b24d7a",
+			"kRpcSocketWebrtc",
+			"\n",
+			" · ",
+			" / ",
+			"projects",
+			"wild",
+			" sample",
+			";",
+			"oReq",
+			"m",
+			"```\n",
+			"thunder",
+			"font",
+			"px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 110.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ncsu-immersive-scholar.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"radi",
+				"_projects/radiant-city.markdown"
+			],
+			[
+				"ele",
+				"_projects/elephant-atlas.markdown"
+			],
+			[
+				"talk",
+				"_projects/talks.mdown"
+			],
+			[
+				"into",
+				"_projects/into-the-okavango.markdown"
+			],
+			[
+				"tod",
+				"TODO.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "ncs",
+		"selected_items":
+		[
+			[
+				"ncs",
+				"~/Documents/Projects/ncsu-immersive-scholar/ncsu-immersive-scholar.sublime-workspace"
+			],
+			[
+				"ns",
+				"~/Documents/Projects/ncsu-immersive-scholar/ncsu-immersive-scholar.sublime-project"
+			],
+			[
+				"desk",
+				"~/Documents/desktop.sublime-project"
+			],
+			[
+				"mus",
+				"~/Documents/Projects/museum-data-sprint.sublime-workspace"
+			],
+			[
+				"mu",
+				"~/Documents/Projects/museum-data-sprint.sublime-project"
+			],
+			[
+				"deskt",
+				"~/Documents/desktop.sublime-project"
+			],
+			[
+				"into",
+				"~/Documents/Projects/intotheokavango.sublime-project"
+			],
+			[
+				"defe",
+				"~/Documents/Projects/deface.sublime-project"
+			],
+			[
+				"deface",
+				"~/Documents/Projects/deface.sublime-project"
+			],
+			[
+				"defa",
+				"~/Documents/Projects/deface.sublime-project"
+			],
+			[
+				"defac",
+				"~/Documents/Projects/deface.sublime-project"
+			],
+			[
+				"desfa",
+				"~/Documents/Projects/deface.sublime-project"
+			],
+			[
+				"de",
+				"~/Documents/Projects/deface.sublime-project"
+			],
+			[
+				"syrin",
+				"~/Documents/Projects/syrianarchive-report.sublime-project"
+			],
+			[
+				"clou",
+				"~/Documents/Projects/cloudy.sublime-project"
+			],
+			[
+				"brow",
+				"~/Documents/Projects/brown-tapestry.sublime-project"
+			],
+			[
+				"syr",
+				"~/Documents/Projects/syrianarchive-report.sublime-project"
+			],
+			[
+				"ia",
+				"~/Documents/Projects/iaaaan.sublime-project"
+			],
+			[
+				"in",
+				"~/Documents/Projects/intotheokavango.sublime-project"
+			],
+			[
+				"i",
+				"~/Documents/Projects/iaaaan.sublime-project"
+			],
+			[
+				"des",
+				"~/Documents/desktop.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/Projects/brown-tapestry.sublime-project"
+			],
+			[
+				"syri",
+				"~/Documents/Projects/syrianarchive.sublime-project"
+			],
+			[
+				"sy",
+				"~/Documents/Projects/syrianarchive.sublime-project"
+			],
+			[
+				"cl",
+				"~/Documents/Projects/cloudy.sublime-project"
+			],
+			[
+				"ber",
+				"~/Documents/Projects/berry-tart-map.sublime-project"
+			],
+			[
+				"syrian",
+				"~/Documents/Projects/syrianarchive.sublime-project"
+			],
+			[
+				"d",
+				"~/Documents/Projects/berry-tart-map.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

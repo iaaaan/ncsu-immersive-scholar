@@ -11,4 +11,5 @@ press: <a target='_blank' href='https://www.wired.com/2014/12/sci-fi-worthy-inte
 index: 9
 images: ['weWereStrangers_03.jpg', 'weWereStrangers_06.jpg', 'weWereStrangers_05.jpg']
 tags: ['installation', 'public space']
+for: "[Times Square Alliance](https://www.timessquarenyc.org/)"
 ---

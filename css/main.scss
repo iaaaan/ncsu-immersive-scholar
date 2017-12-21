@@ -7,7 +7,7 @@ $font-body: 16px;
 $font-headline: 26px;
 
 $black: #f5f5f5;
-$dark-gray: #AAAAAA;
+$dark-gray: #999;
 $light-gray: #666666;
 $white: black;
 
@@ -193,6 +193,7 @@ img.button {
         height: $line-width * 8;
         border-radius: $line-width * 4;
         background-image: url('../images/misc/CMRCHH-u_400x400.jpg');
+        background-position: center;
         background-size: cover;
         margin-top: $line-width * 2;
       }
@@ -251,15 +252,33 @@ img.button {
 
         &_tag {
           display: inline-block;
-          font-size: 10px;
+          font-size: 11px;
           text-transform: uppercase;
-          font-weight: bold;
           border: 1px solid $dark-gray;
           color: $dark-gray;
           padding: 0 10px;
           letter-spacing: 0.07em;
           line-height: 25px;
           margin-bottom: 0.5vw;
+        }
+      }
+
+      &_for {
+        font-size: 11px;
+        text-transform: uppercase;
+        color: $dark-gray;
+        transition: color 0.15s;
+
+        & p {
+          display: inline-block;
+
+          &:first-child {
+            margin-right: 5px;
+          }
+        }
+
+        & a:hover {
+          color: $white;
         }
       }
 
