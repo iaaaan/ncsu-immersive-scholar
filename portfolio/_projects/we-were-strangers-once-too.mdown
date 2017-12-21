@@ -2,7 +2,7 @@
 title:  "We Were Strangers Once Too"
 description: "“Scripture tells us that we shall not oppress a stranger, for we know the heart of a stranger—we were strangers once, too. My fellow Americans, we are and always will be a nation of immigrants. We were strangers once, too.” —President Barack Obama<br><br>We Were Strangers Once Too was a public data sculpture which highlighted the role that immigrants played in the founding, development, and continued vibrancy of New York City.<br><br>Made of 33 metal poles each inscribed with the immigrant population in NYC coming from an individual nation, a viewer’s shift in perspective resolved the sculpture to an iconic heart when viewed from the statue of Father Duffy in the center of Times Square.<br><br>In the face of rising nationalism and xenophobia—both in our own country and across the world—it was vital to reaffirm our commitment to supporting the diverse populations around us. We Were Strangers Once Too used local open data to make our city’s immigrant populations visible and centered (figuratively and literally, in Times Square) in the conversation, asserting that these populations are to be protected, championed, and loved.<br><br>We Were Strangers Once Too was open to the public in Times Square, NYC from February 7 - March 6, 2017."
 category: times-square
-year: 2014
+year: 2017
 for: "Microsoft Cybercrime Unit"
 for-link: "https://news.microsoft.com/presskits/dcu/#sm.00000b7w8fnigif79rsp9bqb4m5p1"
 with: "The OCR"

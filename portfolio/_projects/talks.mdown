@@ -2,7 +2,7 @@
 title:  "Visualized"
 description: "A 20-minute talk presented at Visualized 2015 in New York City. We discuss the limitations of storytelling in data visualization and make a case for designing exploratory interfaces."
 category: talks
-year: 2013-2017
+year: 2015
 hasPosts: true
 hasGallery: false
 type: "talks"

@@ -185,6 +185,7 @@ img.button {
 
     &_bio {
       flex-basis: $line-width * 38;
+      margin-bottom: $line-width * 4;
 
       &_profile {
         display: block;
@@ -202,6 +203,10 @@ img.button {
         .about_bios_bio_profile {
           background-image: url('../images/misc/GenevieveHoffman.jpg');
         }
+      }
+
+      & p {
+        margin-bottom: $line-width;
       }
 
       & a {

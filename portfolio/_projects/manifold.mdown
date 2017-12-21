@@ -2,7 +2,7 @@
 title:  "Manifold"
 description: "One of the world’s largest social networks came to us with an interesting proposition: could we build a system that shows people what events are unfolding across the platform as they happen? As many of us have witnessed, current events often break first on social media before getting picked up by traditional news outlets. The result is Manifold Livemap, a live data tool that visualizes the platform as a new type of geography, one based on people’s shared interests, not just shared locations."
 category: manifold
-year: 2014
+year: 2016-2017
 for: "Microsoft Cybercrime Unit"
 for-link: "https://news.microsoft.com/presskits/dcu/#sm.00000b7w8fnigif79rsp9bqb4m5p1"
 with: "The OCR"
