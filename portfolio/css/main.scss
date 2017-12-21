@@ -179,6 +179,10 @@ img.button {
     display: flex;
     flex-basis: $line-width * 80;
 
+    @include tablet-portrait-down {
+      display: block;
+    }
+
     &_bio {
       flex-basis: $line-width * 38;
 
@@ -303,6 +307,11 @@ img.button {
         max-height: $line-width * 20.25;
         background-color: $white;
         margin-bottom: $line-width * 2;
+
+        @include tablet-portrait-down {
+          width: 93.25vw !important;
+          min-height: 52.45vw;
+        }
       }
     }
 
