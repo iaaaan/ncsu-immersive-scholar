@@ -1,6 +1,6 @@
 ---
 title:  "Centre Pompidou Data Sprint"
-description: "I joined the The New School's [Center for Data Arts](http://www.data-arts.nyc/) to visualize the depth and breadth of conversations that took place at one of the world's most eclectic business conferences.<br/><br/>Together, we put together a physical installation and a 3-day live-coding performance to transcribe the substance of C2 Montreal."
+description: "In November 2017, Ian was invited to join the New School's [Center for Data Arts](http://www.data-arts.nyc/), [Sciences Po's Medialab](http://www.medialab.sciences-po.fr/), and the [Technical University of Berlin](https://www.tu-berlin.de/menue/home/parameter/en/), for a data sprint dedicated to exploring the Centre Pompidou art collection data.<br><br>Over the course of 4 days, data experts, art historians, and ethnographers teamed up to explore the wealth of information recorded by the museum since its inception 50 years ago. A world first, this project not only looks at artwork acquisition around the world, but also investigates the movement and internal operations experienced by each of the 110,000 pieces of the collection. The early prototypes developed during the data sprint reveal patterns in the life cycle of each art piece, and shed light on broader trends in museography and art history over several decades."
 category: pompidou
 year: 2017
 with: "Center for Data Arts"

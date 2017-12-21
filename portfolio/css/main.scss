@@ -196,7 +196,7 @@ img.button {
         margin-right: $line-width * 4;
 
         .about_bios_bio_profile {
-          background-image: url('../images/misc/CMRCHH-u_400x400.jpg');
+          background-image: url('../images/misc/GenevieveHoffman.jpg');
         }
       }
 
@@ -262,6 +262,16 @@ img.button {
     &_subtitle {
       flex-basis: $line-width * 20;
       margin-right: $line-width * 4;
+
+      & a {
+        text-decoration: underline;
+        transition: color 0.15s;
+        color: $dark-gray;
+
+        &:hover {
+          color: $white;
+        }
+      }
 
       @include tablet-portrait-down {
         margin-bottom: $line-height * 2;

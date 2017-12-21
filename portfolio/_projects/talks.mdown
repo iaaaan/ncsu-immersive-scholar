@@ -1,14 +1,12 @@
 ---
 title:  "Visualized"
-description: "A sample of the talks I've given. Over the past years I've been invited to talk about information design, open data practice, and in one instance about the lack of diversity in tech."
+description: "A 20-minute talk presented at Visualized 2015 in New York City. We discuss the limitations of storytelling in data visualization and make a case for designing exploratory interfaces."
 category: talks
 year: 2013-2017
 hasPosts: true
 hasGallery: false
 type: "talks"
 
-previous-project: c2-brain
-next-project: elephant-atlas
 index: 3
 images: ['https://player.vimeo.com/video/160679945']
 ---

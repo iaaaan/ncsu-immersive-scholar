@@ -1,6 +1,7 @@
 ---
 title:  "Shakespeare Machine"
-description: "What do botnets tell us when given a voice? Specimen Box is a research tool that lets us explore the personality of those malware networks.<br/><br/>Microsoft DCU tasked the Office for Creative Research with exploring the organic structures and behaviors uncovered by observing millions of zombie computers. The resulting application is an interactive, audiovisual installation living in Microsoft’s Cybercrime Center."
+description: "Shakespeare Machine is a permanent artwork in the lobby of the Public Theater in New York City. It was commissioned by the Department of Cultural Affairs’ Percent-for-Art program and the Public Theater. It opened to the public in October, 2012. Shakespeare Machine was awarded the 2013 [Excellence in Design Award](http://www1.nyc.gov/site/designcommission/awards/past-awards/design-awards-31.page) by the Public Design Commission of the City of New York.<br><br>The Shakespeare Machine remixes the text from 37 of Shakespeare’s plays. Custom software developed by OCR parses the text and finds similar phrases from all different plays. Each of the the 37 blades in the chandelier contains an entire play, and the software cycles through different modes that selects similar types of phrases, based on grammatical, rhythmic or semantic attributes.
+"
 category: shakespeare-machine
 year: 2014
 for: "Microsoft Cybercrime Unit"
@@ -9,5 +10,5 @@ with: "The OCR"
 with-link: "https://ocr.nyc/"
 press: <a target='_blank' href='https://www.wired.com/2014/12/sci-fi-worthy-interface-tracking-criminal-botnets/'>Wired</a>
 index: 7
-images: ['Whole-p.jpg', 'viz3.jpg', 'ADJ-and-ADJ2 11.24.06 PM-p.jpg', 'Complete-Works.jpg']
+images: ['Whole-p.jpg', 'viz3.jpg', 'ADJ-and-ADJ2 11.24.06 PM-p.jpg']
 ---

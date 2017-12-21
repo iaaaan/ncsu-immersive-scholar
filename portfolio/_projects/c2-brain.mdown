@@ -1,6 +1,6 @@
 ---
 title:  "C2 Brain"
-description: "I joined the The New School's [Center for Data Arts](http://www.data-arts.nyc/) to visualize the depth and breadth of conversations that took place at one of the world's most eclectic business conferences.<br/><br/>Together, we put together a physical installation and a 3-day live-coding performance to transcribe the substance of C2 Montreal."
+description: "Ian joined The New School's [Center for Data Arts](http://www.data-arts.nyc/) to visualize the depth and breadth of conversations that took place at one of the world's most eclectic business conferences. They put together a physical installation and a 3-day live-coding performance to transcribe the substance of C2 Montréal.<br><br>The installation was meant as an immersive prolongation of the conference's experience, where one could get a sense of all the conversations happening around them.<br><br>To accommodate this idea, Ian developed a virtual world revolving around the installation, and turned the LED screens into a window onto the content captured in real time by a team of editors.<br><br>The conference was attended by 5000 people from all over the world. The C2 Brain appeared in hundreds of pictures posted on social media, making it one of the center pieces of the event."
 category: c2-brain
 year: 2017
 with: "Center for Data Arts"

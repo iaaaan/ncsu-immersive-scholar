@@ -1,7 +1,6 @@
 ---
 title:  "Into the Okavango"
-description: "Can we make open science accessible beyond academia? Into the Okavango turns a field expedition in Botswana into an immersive online experience and a user-friendly API.<br/><br/>Partnering with ornithologist Dr. Steve Boyes, the Office for Creative Research developed a technology suite enabling the live collect, processing and visualization of thousands of data records from the field."
-
+description: "A live data expedition into the Okavango Delta. Expedition led by Steve Boyes of [The Wild Bird Trust](http://www.wildbirdtrust.com/).<br><br>Into the Okavango displays data which was uploaded daily, via satellite, by the expedition team in the Okavango Delta. Data is also available through a public API, allowing anyone to re-mix, analyze, or visualize the collected information. The software allows viewers to virtually experience one of the last remaining areas of true wilderness, normally inaccessible to the average person.<br><br>National Geographic explorer Dr. Steve Boyes has been leading expeditions into African wilderness for the past ten years. A South African ornithologist, Boyes dedicates his work to the conservation of the largest remaining untouched delta on our planet. For the past three expeditions, The Office for Creative Research provided Boyes and his team with live tracking software that visualized their GPS position, wildlife sightings, and position-based commentary."
 category: into-the-okavango
 year: 2014-2017
 with: "the Office for Creative Research"
