@@ -11,7 +11,7 @@
 			"file": "portfolio/css/main.scss",
 			"settings":
 			{
-				"buffer_size": 15036,
+				"buffer_size": 15131,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -20,7 +20,7 @@
 			"file": "portfolio/index.html",
 			"settings":
 			{
-				"buffer_size": 5527,
+				"buffer_size": 5866,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -227,6 +227,7 @@
 	],
 	"file_history":
 	[
+		"/Users/ian/Documents/Projects/ncsu-immersive-scholar/portfolio/css/robots.txt",
 		"/Users/ian/Desktop/NCSU/twitter-info.txt",
 		"/Users/ian/Desktop/NCSU/bio.txt",
 		"/Users/ian/Documents/Projects/ncsu-immersive-scholar/README.md",
@@ -352,15 +353,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15036,
+						"buffer_size": 15131,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5301,
-								5301
+								2919,
+								2919
 							]
 						],
 						"settings":
@@ -370,10 +371,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4903.0,
+						"translation.y": 2932.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -382,15 +383,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5527,
+						"buffer_size": 5866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3085,
-								3085
+								1283,
+								1283
 							]
 						],
 						"settings":
@@ -400,7 +401,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 883.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -431,7 +432,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
@@ -459,7 +460,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -487,7 +488,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -515,7 +516,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -571,7 +572,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -599,7 +600,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -627,7 +628,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -655,7 +656,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -684,7 +685,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -712,7 +713,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -740,7 +741,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -768,7 +769,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -840,9 +841,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "ia",
+		"last_filter": "desk",
 		"selected_items":
 		[
+			[
+				"desk",
+				"~/Documents/desktop.sublime-project"
+			],
 			[
 				"ia",
 				"~/Documents/Projects/iaaaan.githug.io.sublime-project"
@@ -850,10 +855,6 @@
 			[
 				"iaaa",
 				"~/Documents/Projects/iaaaan.githug.io.sublime-project"
-			],
-			[
-				"desk",
-				"~/Documents/desktop.sublime-project"
 			],
 			[
 				"wes",

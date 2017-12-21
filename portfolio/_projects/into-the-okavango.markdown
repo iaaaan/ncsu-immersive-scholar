@@ -12,4 +12,5 @@ press: <a target='_blank' href='https://www.theguardian.com/environment/radical-
 
 images: ['map1.jpg', 'journal3.jpg', 'https://player.vimeo.com/video/194103987']
 index: 1
+tags: ['web', 'interactive', 'open API', 'exploratory', 'live data']
 ---

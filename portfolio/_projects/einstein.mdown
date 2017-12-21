@@ -9,4 +9,5 @@ for: "C2"
 for-link: "https://www.c2montreal.com/"
 index: -2
 images: ['einstein_1.jpg', 'einstein_2.jpg', 'einstein_3.jpg', 'einstein_4.jpg']
+tags: ['science publication data', 'print', 'interactive']
 ---

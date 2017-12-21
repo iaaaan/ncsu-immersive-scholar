@@ -9,4 +9,5 @@ type: "talks"
 
 index: 3
 images: ['https://player.vimeo.com/video/160679945']
+tags: ['exploration', 'open API']
 ---

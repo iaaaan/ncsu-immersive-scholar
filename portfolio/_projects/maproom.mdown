@@ -11,4 +11,5 @@ with-link: "https://ocr.nyc/"
 press: <a target='_blank' href='https://www.wired.com/2014/12/sci-fi-worthy-interface-tracking-criminal-botnets/'>Wired</a>
 index: 8
 images: ['maproom_01.jpg', 'maproom_02.jpg', 'maproom_03.jpg', 'maproom_04.jpg']
+tags: ['community driven', 'public space']
 ---

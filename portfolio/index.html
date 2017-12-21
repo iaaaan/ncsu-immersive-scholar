@@ -36,9 +36,6 @@ layout: default
    * © 2016 MyFonts Inc
   */
 
-  tags
-  publish
-
   -->
 
   <meta charset="utf-8">
@@ -98,6 +95,11 @@ layout: default
             <h3 class="project_project_title_date">
               {{ project.year }}
             </h3>
+            <ul class="projects_project_title_tags">
+              {% for tag in project.tags %}
+                <li class="projects_project_title_tags_tag">{{ tag }}</li>
+              {% endfor %}
+            </ul>
           </div>
           <div class="projects_project_subtitle">
             {{ project.description | markdownify }}

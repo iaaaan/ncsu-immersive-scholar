@@ -247,6 +247,22 @@ img.button {
       flex-basis: $line-width * 12;
       margin-right: $line-width * 4;
 
+      &_tags {
+
+        &_tag {
+          display: inline-block;
+          font-size: 10px;
+          text-transform: uppercase;
+          font-weight: bold;
+          border: 1px solid $dark-gray;
+          color: $dark-gray;
+          padding: 0 10px;
+          letter-spacing: 0.07em;
+          line-height: 25px;
+          margin-bottom: 0.5vw;
+        }
+      }
+
       @include laptop-up {
         flex-basis: 216px;
         margin-right: 72px;

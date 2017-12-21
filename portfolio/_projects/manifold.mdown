@@ -10,4 +10,5 @@ with-link: "https://ocr.nyc/"
 press: <a target='_blank' href='https://www.wired.com/2014/12/sci-fi-worthy-interface-tracking-criminal-botnets/'>Wired</a>
 index: 6
 images: ['veev-screenshot-17-sm-358.png', 'veev-screenshot-21-sm-372.png', 'veev-screenshot-31-sm-770.png']
+tags: ['interactive', 'live data']
 ---

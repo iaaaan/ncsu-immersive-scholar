@@ -10,4 +10,5 @@ with-link: "https://ocr.nyc/"
 press: <a target='_blank' href='https://www.wired.com/2014/12/sci-fi-worthy-interface-tracking-criminal-botnets/'>Wired</a>
 index: 10
 images: ['empire1.jpg', 'empire2.jpg', 'empire4.jpg', 'empire5.jpg']
+tags: ['interactive', 'storytelling']
 ---
