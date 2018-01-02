@@ -4,7 +4,7 @@ description: "One of the world’s largest social networks came to us with an in
 category: manifold
 year: 2016-2017
 press: <a target='_blank' href='https://www.wired.com/2014/12/sci-fi-worthy-interface-tracking-criminal-botnets/'>Wired</a>
-index: 6
+index: 7
 images: ['veev-screenshot-17-sm-358.png', 'veev-screenshot-21-sm-372.png', 'veev-screenshot-31-sm-770.png']
 tags: ['interactive', 'live data']
 ---

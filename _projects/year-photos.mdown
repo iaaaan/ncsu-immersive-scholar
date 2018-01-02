@@ -1,0 +1,11 @@
+---
+title:  "A Year in Photos"
+description: "A Year in Photos was created for the IAC lobby's 120 foot wide video wall during a year-long fellowship in 2013. Using photos from the Daily Beast's archives, Genevieve created a generative system where the images break apart and reassemble.<br><br>She also prototyped a system that turned the input from security cameras in the lobby into a live kaleidoscopic pattern."
+category: year-photos
+year: 2013
+for: "IAC"
+index: 5
+images: ['https://player.vimeo.com/video/114595436', 'year1.jpg', 'year2.jpg', 'year3.jpg']
+tags: [installation', 'archive data']
+for: "IAC"
+---
